@@ -1,5 +1,8 @@
 GreyClass theme for kRISS-feed
 
+Author: Yorik van Havre
+License: Public Domain
+
 A simple and clean theme for kriss-feed ( https://github.com/tontof/kriss_feed ), 
 based on the default them (the only one that works ok in both desktop and phone
 versions for me...
