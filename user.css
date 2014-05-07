@@ -27,6 +27,8 @@ li.feed.has-unread {
 .well, .navbar {
     border: 0px;
     background-color: #fff;
+    border-top: 8px solid #ddd;
+    border-radius: 0px;
 }
 
 .navbar {
@@ -56,13 +58,12 @@ li.feed.has-unread {
 }
 
 .row-fluid .span3 {
-    width: 14%;
     overflow: hidden;
     font-size: 70%;
+    min-width: 130px;
 }
 
 .row-fluid .span9 {
-    width: 85%;
     border-radius: 3px;
 }
 
@@ -79,7 +80,6 @@ li.feed.has-unread {
 
 .item-expanded {
 	color: #888;
-	border-top: 8px solid #ddd;
 }
 
 .current .item-link {
@@ -93,6 +93,10 @@ li.feed.has-unread {
 
 .current-feed .label, .folder h4 .label {
     color: #000;
+}
+
+.current, .current-feed, .current-folder > h5, .current-folder > h4 {
+    background-color: #fff;
 }
 
 #list-feeds {
